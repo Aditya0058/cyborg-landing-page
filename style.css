@@ -1,65 +1,11 @@
 *{
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
 }
-.heroSection{
-    height: 100vh;
-    background-color: #ff3d54;
-    display: flex;
-    flex-direction: column;
+body, html{
+    overflow-x: hidden;
+    background: hsl(0, 26%, 96%);
 }
-
-.hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    gap: 20px;
-}
-.hero-content h1 {
-    font-size: 50px;
-}
-
-
-.navigationBar { 
-    display: flex;
-    justify-content:space-between;
-    width: calc(100% - 40px);
-    padding: 20px;
-
-}
-
-.nav-menu{
-    display: flex;
-    gap: 30px;
-
-}
-
-.nav-menu li a{
-    text-decoration: none;
-    color: white;
-}
-.nav-menu li{
-    list-style-type: none;
-
-}
-.left-part {
-    display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    gap: 60px;
-}
-.right-part{
-    display: flex;
-    gap: 30px;
-
-}
-
-.hero-Btn {
-    display: flex;
-    gap: 30px;
-
-}
-.features{
-    height: 35vh;
-}
+/** Header starts here **/
